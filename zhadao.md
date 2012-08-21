@@ -371,3 +371,21 @@ http://www.linuxsky.net
 http://zh.wikipedia.org/wiki/Wine
 
 非Debian系的软件包名是wine，Debian系（Ubuntu，Mint，Deepin，StartOS等）是按版本号例如wine1.4 wine1.5
+
+#软件数量
+
+一直有人说（黑）Linux软件少。其实一点也不少。只是他们认为的软件是那些win下的软件。原生软件挺多，只不过不一定知名罢了。
+
+#游戏
+
+一直有人说（黑）Linux游戏少，不适合玩游戏。Linux原生也有不少好游戏，例如Supertuxkart，warzone2100。
+
+只是没有win下那些所谓“主流游戏”。而且一部分是可以wine的。比如war3、ra2。
+
+#按书上操作无果
+
+一般情况是书太老了。换一本新书。
+
+#学的没有方向
+
+先从桌面美化开始
