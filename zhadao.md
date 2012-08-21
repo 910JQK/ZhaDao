@@ -256,6 +256,15 @@ lz:抱歉，打错了，是ati……
 
 杂项
 ----
+#推荐书籍
+
+【入门】《笨兔兔的故事》
+
+http://forum.ubuntu.org.cn/viewtopic.php?t=267518
+
+【入门】《鸟哥的linux私房菜》
+
+http://linux.vbird.org/linux_basic/
 
 #关于伸手党
 
