@@ -11,10 +11,11 @@
 
 3：新手常犯的错误
 
-4：提问的艺术
+4：提问的智慧
 
 5：杂项
 
+6：实战使用中的种种问题
 
 你是一个Linux新手
 --------------------
@@ -148,7 +149,7 @@ http://mirrors.163.com/
 
 【尝试某个发行版体验不好可以吐槽，但不要放地图炮，例：“Fedora这地沟油”】
 
-提问的艺术
+提问的智慧
 -------------
 
 来本吧提问的时候，特别注意几点：
@@ -156,6 +157,8 @@ http://mirrors.163.com/
 问题具体
 
 信息充足
+
+如果你是按书上操作，确认你的书没有过时（比如Red Hat9）
 
 不要乱喷，不要放地图炮
 
@@ -353,3 +356,18 @@ http://www.linuxfans.org
 http://www.linuxsir.org
 
 http://www.linuxsky.net
+
+实战使用中的种种问题
+----
+
+#兼容
+
+经常有很多人发出类似的抱怨“Linux为什么不能运行exe”
+
+其实这是理所应当的。就好比上面雪碧和加多宝的例子。
+
+但是有一个叫做wine的程序可以运行一部分win程序
+
+http://zh.wikipedia.org/wiki/Wine
+
+非Debian系的软件包名是wine，Debian系（Ubuntu，Mint，Deepin，StartOS等）是按版本号例如wine1.4 wine1.5
