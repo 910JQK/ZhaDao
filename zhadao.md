@@ -296,10 +296,6 @@ QQÊÇ¸ö²»´íµÄÍ¨Ñ¶Èí¼þ£¬µ«ÊÇÓÉÓÚÆäLinux°æ²»¹»¸øÁ¦ÒÔ¼°²»ÔÙ¸üÐÂ£¬ËùÒÔ°ÉÀï´ó²¿·ÖÈË²»Ó
 
 ²»ÒªÖ¸Íû±ðÈËÊÖ°ÑÊÖ½ÌÄã£¬±ðÈË»¹ÒªÃ¦ÆäËûµÄÊÂ¡£
 
-#ÌáÎÊµÄÒÕÊõ
-
-http://phorum.vbird.org/viewtopic.php?t=96
-
 #¹ØÓÚºÚ¿Í£º
 
 Ò»´Ê²»Í¬³¡ºÏÒâÒåÊÇ²»Ò»ÑùµÄ¡£Ïê¼ûÎ¬»ù°Ù¿Æ¡£
