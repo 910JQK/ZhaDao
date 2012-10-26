@@ -322,15 +322,15 @@ WHAT IS "伸手党"?
 
 偶只能说：
 
-<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/344951_orig.png?0>pic1</img>
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/344951_orig.png?0></img>
 
-<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/5936711_orig.jpg?1>pic2</img>
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/5936711_orig.jpg?1></img>
 
-<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/9626653_orig.jpg?1>pic3</img>
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/9626653_orig.jpg?1></img>
 
-<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/4142453_orig.jpg?0>pic4</img>
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/4142453_orig.jpg?0></img>
 
-<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/913264_orig.jpg?0>pic5</img>
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/913264_orig.jpg?0></img>
 
 杂项
 ----
