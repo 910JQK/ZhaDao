@@ -301,6 +301,37 @@ linux的创造者Linus Benedict Torvalds认为minix的功能不够完善，而minix禁止他人修改
 
 *更多可参考《GNU宣言》、《Mozilla宣言》，他们均能体现出这一点，尽管体现方式不完全相同*
 
+关于伸手党
+----
+
+伸手党是指可以做一件事，却伸手叫别人帮他做。
+
+大部分时候，搜索引擎是最好的老师。
+
+http://74.125.71.106/
+
+http://119.75.217.56/
+
+WHAT IS "伸手党"?
+
+比如“电源开关在哪里？”
+
+深度一点的“BIOS引导该肿么改？”
+
+再深度一点的“LINUX 有汉化版么？”
+
+偶只能说：
+
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/344951_orig.png?0>pic1</img>
+
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/5936711_orig.jpg?1>pic2</img>
+
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/9626653_orig.jpg?1>pic3</img>
+
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/4142453_orig.jpg?0>pic4</img>
+
+<img src=http://xrom.weebly.com/uploads/1/2/7/3/12735361/913264_orig.jpg?0>pic5</img>
+
 杂项
 ----
 #推荐书籍
@@ -312,16 +343,6 @@ http://forum.ubuntu.org.cn/viewtopic.php?t=267518
 【入门】《鸟哥的linux私房菜》
 
 http://linux.vbird.org/linux_basic/
-
-#关于伸手党
-
-伸手党是指可以做一件事，却伸手叫别人帮他做。
-
-大部分时候，搜索引擎是最好的老师。
-
-http://74.125.71.106/
-
-http://119.75.217.56/
 
 #关于QQ
 
