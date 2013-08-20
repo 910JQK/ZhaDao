@@ -395,6 +395,8 @@ http://74.125.71.106/
 
 http://119.75.217.56/
 
+https://duckduckgo.com/
+
 WHAT IS "伸手党"?
 
 比如“电源开关在哪里？”
@@ -489,6 +491,8 @@ gksudo nautilus
 
 #推荐网站：
 
+http://itercast.com
+
 http://chinaunix.net
 
 http://www.linuxfans.org
@@ -518,9 +522,17 @@ http://zh.wikipedia.org/wiki/Wine
 
 #游戏
 
-一直有人说（黑）Linux游戏少，不适合玩游戏。Linux原生也有不少好游戏，例如Supertuxkart，warzone2100。
+一直有人说（黑）Linux游戏少，不适合玩游戏。Linux原生也有不少好游戏，例如Supertuxkart，warzone2100。要玩游戏，windows是一个比linux更好的平台，但这不代表linux下没有游戏。
 
 只是没有win下那些所谓“主流游戏”。而且一部分是可以wine的。比如war3、ra2。
+
+遊戲貼：http://tieba.baidu.com/p/2536719794
+
+#在線音樂與歌詞
+
+只需歌詞+本地音樂的話，播放器+osdlyrics即可。
+
+需要在線音樂，可以搜索“deepin音樂 百度音樂插件”
 
 #按书上操作无果
 
