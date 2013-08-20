@@ -514,7 +514,7 @@ http://www.linuxsky.net
 
 http://zh.wikipedia.org/wiki/Wine
 
-非Debian系的软件包名是wine，Debian系（Ubuntu，Mint，Deepin，StartOS等）是按版本号例如wine1.4 wine1.5
+非Debian系的软件包名是wine，Debian系（Ubuntu，Mint，Deepin，StartOS等）是按版本号例如wine1.5 wine1.6
 
 #软件数量
 
