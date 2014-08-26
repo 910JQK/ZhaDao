@@ -31,18 +31,19 @@ Linux吧 炸道指南
 
 
 1. 在 Windows 下直接删除 Linux 分区导致 「grub rescue」无法进入 Windows 解决：
+
 http://tfeng.org/?p=3756 http://is.gd/1w0QhI  http://is.gd/euoa2m  http://is.gd/66AAVt
 
-
 2. 重装 Windows 导致 Linux 无法进入：
+
 【Grub2: 一般情况】http://is.gd/eLbMf7  http://is.gd/OF80NF【Grub Legacy: CentOS6及以下等旧版本】http://is.gd/c5Lvph
 
-
 3. 因为 Grub 未正确配置导致 「grub rescue」无法进入 Linux 系统：
+
 http://www.linuxidc.com/Linux/2012-07/65249.htm
 
-
 4. 用 Windows 引导 Linux 【多方案】，可以用来解决问题二：
+
 http://forum.ubuntu.org.cn/viewtopic.php?f=139&t=376981
 
 
@@ -87,15 +88,11 @@ http://tieba.baidu.com/p/2416364596
 ■以下这几种情况：
 
 
-
 1. 我是单纯因为 XP 停止支持来寻找一个在老式机器上运行良好的替代系统
-
 
 2. 我是单纯因为国家推广国产操作系统而对 Linux 产生兴趣想试一试
 
-
 3. 我仅仅是想搞 OI(信息学奥林匹克) 的学生，要拿这系统学写程序
-
 
 
 第一种和第二种请直接移步 http://tieba.baidu.com/p/3065646448 这个帖子，对于第三种，＊注意 Linux 并不是必须的，在 Windows 下一样写程序＊，如果确实有兴趣，跟前两种一样。
