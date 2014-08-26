@@ -30,19 +30,19 @@ Linux吧 炸道指南
 【引导问题救急：以下几个不一样注意区分！】
 
 
-1. 在 Windows 下直接删除 Linux 分区导致 「grub rescue」无法进入 Windows 解决：
+- 在 Windows 下直接删除 Linux 分区导致 「grub rescue」无法进入 Windows 解决：
 
 http://tfeng.org/?p=3756 http://is.gd/1w0QhI  http://is.gd/euoa2m  http://is.gd/66AAVt
 
-2. 重装 Windows 导致 Linux 无法进入：
+- 重装 Windows 导致 Linux 无法进入：
 
 【Grub2: 一般情况】http://is.gd/eLbMf7  http://is.gd/OF80NF【Grub Legacy: CentOS6及以下等旧版本】http://is.gd/c5Lvph
 
-3. 因为 Grub 未正确配置导致 「grub rescue」无法进入 Linux 系统：
+- 因为 Grub 未正确配置导致 「grub rescue」无法进入 Linux 系统：
 
 http://www.linuxidc.com/Linux/2012-07/65249.htm
 
-4. 用 Windows 引导 Linux 【多方案】，可以用来解决问题二：
+- 用 Windows 引导 Linux 【多方案】，可以用来解决问题二：
 
 http://forum.ubuntu.org.cn/viewtopic.php?f=139&t=376981
 
