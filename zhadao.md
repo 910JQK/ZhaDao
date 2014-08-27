@@ -47,36 +47,25 @@ http://www.linuxidc.com/Linux/2012-07/65249.htm
 http://forum.ubuntu.org.cn/viewtopic.php?f=139&t=376981
 
 
-【装乌班图系统出了问题！不会装！不会调中文】
-
-
-- Ubuntu 安装教程 (PDF,  含装后配置, 不含 EFI)
-http://pan.baidu.com/s/1qWoaFPq
-
-
-- Ubuntu 使用手册 (含安装)
-http://tieba.baidu.com/p/2922551924
-
-
 【大姨妈贴系列】
 
 
-怎么编译 C 程序：
+- 怎么编译 C 程序：
 http://is.gd/qy8xZt
 
-Linux 怎么读：
+- Linux 怎么读：
 http://tieba.baidu.com/p/1757803469
 
-哪个发行版本用的人多：
+- 哪个发行版本用的人多：
 http://tieba.baidu.com/p/1935807760
 
-TTY 下蜂鸣器叫唤：
+- TTY 下蜂鸣器叫唤：
 http://tieba.baidu.com/p/3251820457
 
-修改 /etc/inittab 设置开机进入命令行模式无效：
+- 修改 /etc/inittab 设置开机进入命令行模式无效：
 http://tieba.baidu.com/p/3255204430
 
-更多问题：
+- 更多问题：
 http://tieba.baidu.com/p/2416364596
 
 
@@ -178,55 +167,83 @@ II--进阶级，没有自带桌面，真正高度定制
 
 II+--比进阶级难
 
-III--单指LFS，最难，是用来学习Linux而不是用的
+
+概念解釋：
+【滚动升级】简称【滚】，又称【滚动更新】【滚动发行】，是指没有固定的系统版本，每天都有更新，所有软件更新后会升级到尽量新的版本，不需要重新安装新版本的操作系统或进行指定的系统版本升级的这样一种更新方式，*但有一定风险*。
+
+与之相对的，大部分发行版采用冻结机制。比如说，在系统最新版本为 6 时，软件 A(1.0) 出了新版本 2.0，那么可以更新到 2.0 版本；当系统出了版本 7 后（也可能是出了 8 后，不同发行版不一样），系统版本 6 被冻结，提供的软件将不再更新，那么即使 A 又出了新版本 3.0，使用系统 6 的用户就无法更新到 3.0，想用 3.0 就必须更新整个系统到 7。当然，这不是绝对的。有时开发者会把新的软件向已冻结的旧版本系统移植，重要的安全更新也是持续推送。 
 
 
-概念解释：Livecd（无须安装，在移动介质上启动运行，所有修改保存到内存）
+
+【注】以下发行版(小型携带系统除外)均有中文支持
+【注】「I 级」和带「*」的适合新手入门使用
+【警告】在 Linux 下，不要把默认样式看作一成不变
 
 
+- (I)DeepinLinux：深度 Linux，国内发行版，方向是面向普通用户的，但是还没能达到目标。不过已经算入门很简单的了。
+
+http://linuxdeepin.com
 
 
->(I)Centos：服务器比较适用的发行版，RedHat(RHEL)的社区版。
+- (I)Fedora：相当于 RedHat 的不稳定分支，但不是滚动升级。
 
->(I)Chakra：基于ArchLinux，KDE桌面的发行版。
+http://fedoraproject.org
 
->(I)DeepinLinux：深度linux，国内发行版，方向是面向第一和第二种人的，但是还没能达到目标。不过已经算入门很简单的了。
 
->(I)Fedora：相当于RedHat的不稳定分支，但不是滚动升级。
+- (I)Mint：基于 Ubuntu 的发行版，同时有基于 Debian 的版本。特色为简洁。
 
->(I)MagicLinux：国内发行版，使用KDE，汉化最好。
+http://www.linuxmint.com
 
->(I)Mandriva(原Mandrake)：基于RedHat，以对每一个人都友好、易用，让新用户更容易使用为目标。
 
->(I)Mint：基于Ubuntu的发行版。特色为简洁。
+- (I)OpenSUSE：曾经被评价为最华丽的Linux桌面发行版。目标是成为所有人都能够得到的最易于使用的 Linux 发行版。
 
->(I)OpenSUSE：被评价为最华丽的Linux桌面发行版。目标是成为所有人都能够得到的最易于使用的 Linux 发行版。
+http://www.opensuse.org
 
->(I)RHEL(Red Hat Enterprise Linux)：老牌的发行版，面向商业市场。
 
->(I)ScientificLinux：由费米国家加速器实验室（Fermilab）与欧洲核子研究组织（CERN）合作开发的Linux发布版。 以RHEL作为基础，特点是十分稳定。
+- (I)StartOS(原YLMFOS)：国内发行版，类似 Deepin。
 
->(I)StartOS(原YLMFOS)：国内发行版，类似Deepin。
+http://startos.org
 
->(I)Ubuntu：最流行的桌面发行版，以易用著称。新版的UNITY桌面有些不稳定，可以选择KDE的Kubuntu或LXDE的Lubuntu衍生版。
 
->(I)ZorinOS：基于Ubuntu，默认界面像WIN7。可以轻松更换界面。
+- (I)Ubuntu：最流行的桌面发行版，以易用著称。新版的 UNITY 桌面有些不稳定，可以选择 KDE 的 Kubuntu 或 Xfce/LXDE 的 Xubuntu/Lubuntu 衍生版。
 
->(I+)Archbang：基于ArchLinux的Livecd衍生版，带有openbox窗口管理器的桌面。
+http://ubuntu.com
 
->(I+)BackTrack：Livecd，内置大量的网络安全工具，因可以方便的破解无线网络而出名。
 
->(I+)Crunchbang：基于debian的Livecd衍生版。
+- (I+)*Centos：服务器比较适用的发行版，RedHat(RHEL) 的社区版。
 
->(I+)Debian：历史较久远的发行版，通用多架构操作系统，有三个分支：稳定分支(stable)、测试分支(testing)、不稳定分支(unstable,滚动升级)。
+http://centos.org
 
->(I+)PuppyLinux：体积小巧，使用方便的小型Livecd系统。
 
->(II)ArchLinux：滚动升级，高度定制，软件丰富，配置集中的发行版。
+- (I+)*Debian：历史久远的发行版，以稳定著称，通用多架构操作系统，有三个分支：稳定分支 (stable)、测试分支 (testing)、不稳定分支 (unstable, 滚动升级)。
 
->(II+)Gentoo：安装软件大多数是编译安装，类似BSD。最稳定的滚动升级发行版。
+https://www.debian.org
 
->(II+)Slackware：力图成为“UNIX风格”的Linux发行版本。它的软件包管理系统它不会解决依赖关系。历史悠久。
+
+- (I+)PuppyLinux：体积小，使用方便的小型携带系统。
+
+http://www.puppylinux.com
+
+
+- (I+)TinyCore：类似 Puppy, 体积更小的小型携带系统，有三个版本，大小分别约为 10M, 15M, 75M
+
+http://www.tinycorelinux.net
+
+
+- (II)ArchLinux：滚动升级，高度定制，软件丰富，配置集中的发行版。
+
+http://archlinux.org
+
+
+- (II+)Gentoo：安装软件大多数是编译安装，类似 FreeBSD。最稳定的滚动升级发行版。
+
+http://gentoo.org
+
+
+- (II+)Slackware：力图成为“UNIX风格”的Linux发行版本。它的软件包管理系统它不会解决依赖关系。历史悠久。
+
+http://www.slackware.com
+
 
 下载（国内）：
 
@@ -236,32 +253,38 @@ http://mirrors.163.com/
 
 这里面没有的请到相应官方网站下载
 
-【尝试某个发行版体验不好可以吐槽，但不要放地图炮，例：“Fedora这地沟油”】
 
 提问的智慧
 -------------
 
-来本吧提问的时候，特别注意几点：
+来本吧提问的时候，特别注意两点：
 
-问题具体
+1. 问题具体
 
-信息充足
+2. 信息充足
 
-如果你是按书上操作，确认你的书没有过时（比如Red Hat9）
 
-不要乱喷，不要放地图炮
+烂问题：
+
+找不到文件怎么办？
+
+
+好问题：
+
+找不到文件「.abc」，在家目录里找没找到，ls 一下也没有，但是直接敲路径有啊，怎么回事？【图】
+
 
 详：http://wiki.woodpecker.org.cn/moin/AskForHelp
 
 新手常犯的错误
 -------------
 
-lz:我听说linux很好，想换掉win7
+lz:我听说 linux 很好，想换掉 win7
 
-网友:过不了多久就换回来了，从此linux一生黑。
+网友:过不了多久就换回来了，从此 linux 一生黑。
 
 
-lz：我想学linux，想成为一个电脑高手，但我讨厌编程和英语。怎么破？
+lz：我想学 linux，想成为一个电脑高手，但我讨厌编程和英语。怎么破？
 
 网友:做个好梦。
 
@@ -285,71 +308,66 @@ lz:我很生气，你们懂不懂什么叫分享叫互助，这里真渣
 吧友:抱歉，不知道你在问什么……
 
 
-lz：老听人说linux很好。我今天一试，我靠，各种用户不友好，还不能用qq，真渣，你们竟然用这么烂的东西，都是sb吗？
+lz：老听人说 linux 很好。我今天一试，我靠，各种用户不友好，还不能用 qq，真渣，你们竟然用这么烂的东西，都是 sb 吗？
 
 吧友:lz你妈喊你回家吃饭
 
 
-lz: 我很气愤，linux真是太烂了。想我有两年windows开发经验的人竟然不会弄，真是太烂了。
+lz: 我很气愤，linux 真是太烂了。想我有两年 windows 开发经验的人竟然不会弄，真是太烂了。
 
 吧友:我不觉得你骑了两年自行车对你开车有什么帮助……
 
 
-lz：linux下竟然不能用office！！linux下软件太少了！！竟然不能玩这么多大型游戏。Oh，Shit！！真是垃圾。
+lz：linux 下竟然不能用 office！！linux 下软件太少了！！竟然不能玩这么多大型游戏。Oh，Shit！！真是垃圾。
 
 网友: 不明白你为什么要用打印用的A4纸擦屁股,然后抱怨打印纸擦起来一点也不爽。
 
 
-lz: 求问各位大大，哪个linux发行版最好
+lz: 求问各位大大，哪个 linux 发行版最好
 
 网友: 鸡和鸭哪个更好吃？
 
 
-lz：linux没有钱途，奉劝各位用linux的赶紧退散。
+lz：linux 没有钱途，奉劝各位用 linux 的赶紧退散。
 
 网友:你想多了吧……
 
 
-lz：windows用的挺好的嘛，为什么你们这群人要和别人不一样呢？又不能靠它赚钱，浪费时间和生命。
+lz：windows 用的挺好的嘛，为什么你们这群人要和别人不一样呢？又不能靠它赚钱，浪费时间和生命。
 
 网友:老子招你惹你了，秀理智先去找那些打游戏的和看电视剧的。
 
 
-lz：感觉搞计算机的人都好奇怪，又宅又傻。别人都忙着赚钱和享受去了，它们还在搞不知什么的无聊东西。
+lz:Linux 交流群 1484848448
 
-ME:You got it……
-
-
-lz:Linux交流群1484848448
-
-网友:尼玛无视IRC？？？
+网友:尼玛无视 IRC？？？
 
 
-lz:为什么要用linux，linux可以赚大钱？
+lz:为什么要用 linux，linux 可以赚大钱？
 
 网友：可以用来**
 
 lz:哦，果然如此,还是我聪明……
 
 
-lz:linux么，不就是像dos一样的破玩意，早过时了。
+lz:linux 么，不就是像 dos一样的破玩意，早过时了。
 
 网友:尼玛比不会用维基百科吗？
 
 
-lz：十年前我用过linux，非常难用。
+lz：十年前我用过 linux，非常难用。
 
 网友:十年前的东西现在看貌似都不好用……
 
 
 lz:wo de shu ru fa tiao bu chu lai zen me ban?
 
-网友:ㄑㄧㄥˇ ㄕˇ ㄩㄥˋ ㄩㄣˊ ㄕㄨ ㄖㄨˋ ㄈㄚˇ，ㄆㄧㄣ ㄧㄣ ㄅㄨˊ ㄕˋ ㄎㄜˇ ㄧˇ ㄐㄧㄠ ㄌㄧㄡˊ ㄉㄜ˙ ㄩˇ ㄧㄢˊ 
+网友:pin- yin- bu/ shi\ ke^ yi^ jiao- liou/ de yu^ yan/
 
 
-lz:Ubuntu13.04怎么比XP都慢啊？
+lz:Ubuntu13.04 怎么比 XP 都慢啊？
 
-网友:XP 十年前的系统你跟13年4月的Ubuntu比？？？
+网友:XP 十年前的系统你跟半年一更的 Ubuntu 比？？？
 
 
 lz:这是我发明的永动机
@@ -357,22 +375,22 @@ lz:这是我发明的永动机
 网友:为什么放弃治疗？？？
 
 
-lz：你们觉得国内Linux发行版哪个最合国人习惯
+lz：你们觉得国内 Linux 发行版哪个最合国人习惯
 
 网友:深入贯彻落实带三个表重要思想。
 
 
-lz:为什么我安装的ubuntu要激活码 肿么回事
+lz:为什么我安装的 ubuntu 要激活码 肿么回事
 
 网友:学好英语很重要
 
 
-lz:听说GNOME3反人类...............
+lz:听说 GNOME3 反人类...............
 
-网友:你用GNOME3，管别人说它反人类干嘛？
+网友:你用 GNOME3，管别人说它反人类干嘛？
 
 
-lz：ruby是日本人发明的，爱国的都来抵制它
+lz：ruby 是日本人发明的，爱国的都来抵制它
 
 网友〡：天朝的东西都是垃圾，
 
@@ -381,36 +399,36 @@ lz：ruby是日本人发明的，爱国的都来抵制它
 网友〣:2l个美分,**你%……&×
 
 
-lz:KDE都是异端，烧烧烧烧烧烧！
+lz:KDE 都是异端，烧烧烧烧烧烧！
 
-网友金:GNOME3才是异端，烧烧烧烧烧烧！
+网友金:GNOME3 才是异端，烧烧烧烧烧烧！
 
-网友木:胡说！大GNOME3才是王道！
+网友木:胡说！大 GNOME3 才是王道！
 
-网友水:你是不习惯GNOME3吧，GNOME3不是提供Classic么？
+网友水:你是不习惯 GNOME3 吧，GNOME3 不是提供Classic么？
 
 网友火:前排出售 汽油、乙炔、电石、高某酸酐、R和谐DX
 
 网友土:你们够了！
 
 
-lz: 发个新闻:据说大概也许可能似乎nvidia…………
+lz: 发个新闻:据说大概也许可能似乎 nvidia…………
 
-网友甲:我早知道nvidia是个垃圾公司，我从来就不用n卡，nvidia我草拟……×%%%
+网友甲:我早知道 nvidia 是个垃圾公司，我从来就不用 n 卡，nvidia 我草拟……×%%%
 
-网友乙:一直不用n卡
+网友乙:一直不用 n 卡
 
-网友丙:垃圾nvidia，我早看它不顺眼了，都是垃圾产品
+网友丙:垃圾 nvidia，我早看它不顺眼了，都是垃圾产品
 
-网友丁: ……弱弱说声，我觉得nvidia的卡在我这里表现挺好的啊，比A卡好……
+网友丁: ……弱弱说声，我觉得 nvidia 的卡在我这里表现挺好的啊，比 A 卡好……
 
-网友戊：楼上2B不解释
+网友戊：楼上 2B 不解释
 
-网友己：lss是水军，是nvidia的托
+网友己：lss 是水军，是 nvidia 的托
 
-网友辛：**你吗比lsss，老子的n卡烂的EB
+网友庚：**你吗比lsss，老子的 n 卡烂的 EB
 
-lz:抱歉，打错了，是ati……
+lz:抱歉，打错了，是 ati……
 
 
 lz:XXX团队，自主研发操作系统，招人，要求中学生，不是开源爱好者...
@@ -464,13 +482,15 @@ linux的创造者Linus Benedict Torvalds认为minix的功能不够完善，而mi
 
 伸手党是指可以做一件事，却伸手叫别人帮他做。
 
-大部分时候，搜索引擎是最好的老师。
+当你使用 Linux 时出现问题时，一般用搜索引擎都能找到答案。
 
 http://74.125.71.106/
 
 http://119.75.217.56/
 
 https://duckduckgo.com/
+
+<img src="http://hiphotos.baidu.com/%BE%C5%CA%AE%B9%B3%C8%A6%BF%AD_/pic/item/620e0a06b3de9c820308c7266c81800a18d84394.jpg" />
 
 WHAT IS "伸手党"?
 
