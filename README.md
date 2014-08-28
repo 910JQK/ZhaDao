@@ -512,15 +512,12 @@ gksudo nautilus
 
 #推荐网站：
 
-http://itercast.com
-
 http://chinaunix.net
 
 http://www.linuxfans.org
 
 http://www.linuxsir.org
 
-http://www.linuxsky.net
 
 实战使用中的种种问题
 ----
