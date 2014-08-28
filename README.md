@@ -1,5 +1,4 @@
-Linux吧 炸道指南
-===================
+# Linux吧 炸道指南
 
 >欢迎来到百度Linux吧。本指南专为贴吧新人而写，因为本吧的特殊情況，所以务必看【完】再发贴。
 
@@ -21,8 +20,7 @@ Linux吧 炸道指南
 
 8. 实战使用中的种种问题
 
-快速通道
---------------------
+## 快速通道
 
 >为初入贴吧的新人准备，收集常见问题以及各种传送门
 
@@ -67,8 +65,7 @@ http://tieba.baidu.com/p/1935807760
 http://tieba.baidu.com/p/2416364596
 
 
- Linux 新手
---------------------
+ ## Linux 新手
 
 >先确定，你是不是适合使用 Linux。如果不适合，最好还是回到 Windows/OSX 的怀抱。
 
@@ -84,7 +81,7 @@ http://tieba.baidu.com/p/2416364596
 
 第一种和第二种请直接移步 http://tieba.baidu.com/p/3065646448 这个帖子，对于第三种，**注意 Linux 并不是必须的，在 Windows 下一样写程序，评测环境指的是“裁判”的评测系统**，如果确实有兴趣，继续往下看。
 
-■〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
+〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
 
 使用电脑的无非就这么几种人：
 
@@ -150,8 +147,7 @@ http://tieba.baidu.com/p/2416364596
 
 老：呃，你到底是为什么要买乐高？
 
-发行版简介
----------------------------------------------------
+## 发行版简介
 
 下面简单介绍一些发行版（字母顺序排序）。
 
@@ -230,9 +226,7 @@ http://mirrors.163.com/
 
 这里面没有的请到相应官方网站下载
 
-
-提问的智慧
--------------
+## 提问的智慧
 
 来本吧提问的时候，特别注意两点：
 
@@ -253,8 +247,7 @@ http://mirrors.163.com/
 
 详：http://wiki.woodpecker.org.cn/moin/AskForHelp
 
-新手常犯的错误 | Periodic Topics
--------------
+## 新手常犯的错误 | Periodic Topics
 
 lz:Linux 各大版本应该统一起来，干掉大硬 balabalabala……
 
@@ -340,7 +333,7 @@ lz：十年前我用过 linux，非常难用。
 网友:十年前的东西现在看貌似都不好用……
 
 
-lz:wo de shu ru fa tiao bu chu lai zen me ban?
+lz:wo de shu ru fa tiao bu chu lai za ban?
 
 网友:pin- yin- bu/ shi\ ke^ yi^ jiao- liou/ de yu^ yan/
 
@@ -367,11 +360,11 @@ lz:为什么我安装的 ubuntu 要激活码 肿么回事
 
 lz：ruby 是日本人发明的，爱国的都来抵制它
 
-网友〡：天朝的东西都是垃圾，
+网友Ａ：天朝的东西都是垃圾，
 
-网友〢:lz 你这个5毛，**你吗，草拟×%&
+网友Ｂ:lz 你这个5毛，**你吗，草拟×%&
 
-网友〣:2l 个美分,**你%……&×
+网友Ｃ:2l 个美分,**你%……&×
 
 
 lz: 发个新闻:据说大概也许可能似乎 nvidia…………
@@ -394,9 +387,9 @@ lz:抱歉，打错了，是 ati……
 
 
 
-Linux哲学
----------
-#Linux由兴趣而生
+## Linux哲学
+
+### Linux由兴趣而生
 linux 的创造者 Linus Benedict Torvalds 认为 minix 的功能不够完善，而 minix 禁止他人修改。当时 Linus 正在学习操作系统课程，出于个人兴趣和自身需求，他尝试着编写了最初的 linux，并在 comp.os.minix 上发布一条消息。
 >Hello everybody out there using minix- I'm doing a (free) operation system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones.
 他开始和一些同样有着动手开发操作系统愿望的黑客们一起完善 linux。越来越多感兴趣的人加入到其中，开发者遍布世界各地。所有的开发者出于自己的爱好和需求，完整 linux，并和他人分享自己的代码。
@@ -405,7 +398,7 @@ linux 的创造者 Linus Benedict Torvalds 认为 minix 的功能不够完善，
 
 *如果你想了解更多，可以去阅读 linus 的《just for fun》这本自传*
 
-#开放与共享
+### 开放与共享
 以比尔盖茨的《致计算机爱好者的一封信》为起点，软件开始进入有版权保护的时代。软件的源代码不再像往日一般被大家所共享，而是被大型公司牢牢把控，生怕被别人看到。技术不再被开放，共享的时代一去不复返。
 很多黑客对此很反感，其中的代表就是 Richard Matthew Stallman。他后来创立了自由软件基金会，并开展了 GNU 计划：开发一个自由的类Unix操作系统。他进而发展了自由软件运动，提出了 Copyleft 概念。GNU 利用软件的版权保护软件的自由。所有人都可以自由地得到、修改并重新发布这些自由软件，只要他们保证这些软件始终是自由的。
 与他人分享自己的成果，同时，享受他人分享的成果。开源软件在这个过程中不断壮大，成为一支不可忽视的力量。设计、编码、美工、宣传、测试，参与进其中的途径有很多。只要参与，就能感受到其中的乐趣。
@@ -413,12 +406,11 @@ linux 的创造者 Linus Benedict Torvalds 认为 minix 的功能不够完善，
 
 *更多可参考《GNU宣言》、《Mozilla宣言》，他们均能体现出这一点，尽管体现方式不完全相同*
 
-关于伸手党
-----
+## 关于伸手党
 
-伸手党是指可以做一件事，却伸手叫别人帮他做。
+伸手党是指**可以**做一件事，却伸手叫别人帮他做。
 
-当你使用 Linux 时出现问题时，一般用搜索引擎都能找到答案。
+当你使用 Linux 时出现问题时，一般用**搜索引擎**都能找到答案。
 
 http://google.com (http://sinaapp.co) (https://startpage.com)
 
@@ -436,22 +428,14 @@ WHAT IS "伸手党"?
 
 再深度一点的“LINUX 有汉化版么？”
 
-偶只能说：
+我只想说：
 
 <img src="http://xrom.weebly.com/uploads/1/2/7/3/12735361/344951_orig.png?0"></img>
 
-<img src="http://xrom.weebly.com/uploads/1/2/7/3/12735361/5936711_orig.jpg?1"></img>
 
-<img src="http://xrom.weebly.com/uploads/1/2/7/3/12735361/9626653_orig.jpg?1"></img>
+## 杂项
 
-<img src="http://xrom.weebly.com/uploads/1/2/7/3/12735361/4142453_orig.jpg?0"></img>
-
-<img src="http://xrom.weebly.com/uploads/1/2/7/3/12735361/913264_orig.jpg?0"></img>
-
-
-杂项
-----
-#推荐书籍
+### 推荐书籍
 
 【入门】《笨兔兔的故事》(实体书名：linux入门很简单)
 
@@ -464,7 +448,7 @@ http://forum.ubuntu.org.cn/viewtopic.php?t=267518
 [简体] http://vbird.dic.ksu.edu.tw
 
 
-#关于QQ
+### 关于QQ
 
 QQ 是个不错的通讯软件，但是由于其 Linux 版不够给力以及不再更新，所以吧里大部分人不用 QQ。
 
@@ -472,7 +456,7 @@ QQ 是个不错的通讯软件，但是由于其 Linux 版不够给力以及不�
 
 http://tieba.baidu.com/p/2416273603
 
-#关于游戏：
+### 关于游戏：
 
 linux 上游戏有不少，只是没有“主流游戏”（Tencent 系列）
 
@@ -480,7 +464,7 @@ linux 上游戏有不少，只是没有“主流游戏”（Tencent 系列）
 
 关于：
 
-#用户友好：
+### 用户友好：
 
 Linux 是有强大的图形工具，纯桌面用户完全可以脱离命令。
 
@@ -519,10 +503,9 @@ http://www.linuxfans.org
 http://www.linuxsir.org
 
 
-实战使用中的种种问题
-----
+## 实战使用中的种种问题
 
-#兼容
+### 兼容
 
 经常有很多人发出类似的抱怨“Linux 为什么不能运行 exe”
 
@@ -532,14 +515,14 @@ http://www.linuxsir.org
 
 http://zh.wikipedia.org/wiki/Wine
 
-# 被英语绊倒
+### 被英语绊倒
 
-如果是看提示，查单词慢慢就能看懂；如果是看文檔，建议补一补。
+如果是看提示，查单词慢慢就能看懂；如果是看文档，建议补一补。
 
-#按书上操作无果
+### 按书上操作无果
 
 一般情况是书太老了。换一本新书。
 
-#学的没有方向
+### 学的没有方向
 
 先从桌面美化开始
