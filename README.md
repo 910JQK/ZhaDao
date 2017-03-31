@@ -10,7 +10,7 @@
 
 【买了个电脑是 Linux 系统，怎么开不了机啊？】
 
-左转：[Windows10吧](http://tieba.baidu.com/f?kw=Windows10)，[Windows8吧](http://tieba.baidu.com/f?kw=Windows8)，[Windows7贴](http://tieba.baidu.com/f?kw=windows7)
+左转：[Windows10吧](http://tieba.baidu.com/f?kw=Windows10)，[Windows8吧](http://tieba.baidu.com/f?kw=Windows8)，[Windows7吧](http://tieba.baidu.com/f?kw=windows7)
 
 ### 引导急救问题
 
@@ -89,7 +89,7 @@
 
 二、关心自己电脑，关注自己的软件，但只关心软件的效率，功能，用着顺手不顺手，更深层的东西一概不管（不少人都是这个情况）
 
-三、跟第二种相比，喜欢定制配置软件，对电脑的使用比较讲究，甚至有一定的洁癖。（很少）
+三、跟第二种相比，喜欢定制配置软件，对电脑的使用比较讲究，甚至有一定的洁癖（很少）
 
 四、开发/运维/Geek 等（也很少）
 
@@ -159,7 +159,7 @@
 
 与之相对的，大部分发行版采用冻结机制。比如说，在系统最新版本为 6 时，软件 A(1.0) 出了新版本 2.0，那么可以更新到 2.0 版本；当系统出了版本 7 后，系统版本 6 被冻结，提供的软件将不再更新，那么即使 A 又出了新版本 3.0，使用系统 6 的用户就无法更新到 3.0，想用 3.0 就必须更新整个系统到 7。当然，这不是绝对的。有时开发者会把新的软件向已冻结的旧版本系统移植，重要的安全更新也是持续推送。 
 
-### 发行版
+#### 部分常见发行版列表
 
 【注】以下发行版均有中文支持
 
@@ -167,16 +167,16 @@
 
 
 - [I] Deepin: 深度 Linux, 国内发行版，自称是面向普通用户的，但目前还没能达成目标。不过已经弄得很容易上手了。
-  https://www.deepin.org
+  https://deepin.org
 
 - [I+] Debian：历史久远的发行版，以稳定著称，通用多架构操作系统，有三个分支：稳定分支 (stable)、测试分支 (testing)、不稳定分支 (unstable, 滚动升级)。
-  https://www.debian.org
+  https://debian.org
 
 - [I] Ubuntu： 基于 Debian,（可能是）最流行的桌面发行版，以易用著称。21 世纪 00 年代中后期受到的好评较多。但 2011 年引入的新的 Unity 桌面环境有些不稳定，经常被黑。不过也可以选择预装其它桌面环境的衍生版（如 Kubuntu/Xubuntu/Lubuntu）
   http://ubuntu.com
 
 - [I] Mint：基于 Ubuntu 的发行版，同时有基于 Debian 的版本。特色为简洁。桌面环境偏向传统。
-  http://www.linuxmint.com
+  http://linuxmint.com
 
 - [I+] Centos：服务器比较适用的发行版，比较稳定，RHEL 的社区版。
   http://centos.org
@@ -185,7 +185,7 @@
   http://fedoraproject.org
 
 - [I] OpenSUSE：曾经被评价为最华丽的Linux桌面发行版。目标是成为所有人都能够得到的最易于使用的 Linux 发行版。
-  http://www.opensuse.org
+  http://opensuse.org
 
 - [II] ArchLinux：滚动升级，高度定制，软件丰富，配置集中的发行版。
   http://archlinux.org
@@ -194,10 +194,10 @@
   http://gentoo.org
 
 - [II+] Slackware：力图成为「UNIX风格」的Linux发行版本。它的软件包管理系统不会自动解决依赖关系。历史悠久。详细介绍见 [一个真实的Slackware](http://tieba.baidu.com/p/3351882243) 这个帖子。
-  http://www.slackware.com
+  http://slackware.com
 
 - [III] LFS: 从零开始构建系统。
-  http://www.linuxfromscratch.org
+  http://linuxfromscratch.org
 
 
 注：Fedora 有时被称作「地沟油」，这只是出自本吧的梗，井不是说这个发行版不行。
@@ -371,7 +371,7 @@ lz: 抱歉，打错了，是 ati……
 
 ## Linux 哲学与历史
 
-关于 Linux 的哲学与历史，可以看看《Revolution OS》這部纪录片。
+关于 Linux 的哲学与历史，可以看看《Revolution OS》这部纪录片。
 
 ## 关于伸手党
 
