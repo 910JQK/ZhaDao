@@ -1,129 +1,95 @@
 # Linux吧 炸道指南
 
->欢迎来到百度Linux吧。本指南专为贴吧新人而写，因为本吧的特殊情況，所以务必看【完】再发贴。
-
-目录：
-
-1. 快速通道
-
-2. Linux 新手
-
-3. 各发行版介绍
-
-4. 新手常犯的错误 | Periodic Topics
-
-5. 提问的智慧
-
-6. Linux哲学
-
-7. 杂项
-
-8. 实战使用中的种种问题
+>欢迎来到百度Linux吧。本指南专为贴吧新人而写，因为本吧的特殊情況，所以务必看【完】再发贴
 
 ## 快速通道
 
->为初入贴吧的新人准备，收集常见问题以及各种传送门
+>  为初入贴吧的新人准备，收集常见问题以及各种传送门
+
+### 买电脑系列
 
 【买了个电脑是 Linux 系统，怎么开不了机啊？】
 
-左转：http://tieba.baidu.com/f?kw=windows7
+左转：[Windows10吧](http://tieba.baidu.com/f?kw=Windows10)，[Windows7贴吧](http://tieba.baidu.com/f?kw=windows7)
 
+### 引导急救问题
 
-【引导问题救急：以下几个不一样注意区分！】
+> 以下几个不一样注意区分！
 
+1. 在 Windows 下直接删除 Linux 分区导致 「grub rescue」无法进入 Windows 解决：
 
-- 【问题一】在 Windows 下直接删除 Linux 分区导致 「grub rescue」无法进入 Windows 解决：
+   * [在Windows8下删掉Linux后，无法进入系统](https://answers.microsoft.com/zh-hans/windows/forum/windows_8-system/%E5%9C%A8windows8%E4%B8%8B%E5%88%A0%E6%8E%89linux/299b7cd7-e418-4272-978e-e9e88fb9a0a7)
+   * [MBR的修复与Ubuntu的卸载](http://blog.csdn.net/u010940849/article/details/11763135)
+   * [如何用diskgenius 这个工具修复MBR](https://zhidao.baidu.com/question/402841617.html)
 
-http://tfeng.org/?p=3756 http://is.gd/1w0QhI  http://is.gd/euoa2m  http://is.gd/66AAVt
+2. 重装 Windows 导致 Linux 无法进入：
 
-- 【问题二】重装 Windows 导致 Linux 无法进入：
+   Grub2: 一般情况：[重装Windows后如何进入Ubuntu](http://www.mintos.org/skill/ubuntu-restore-grub2.html)
 
-【Grub2: 一般情况】http://is.gd/eLbMf7  http://is.gd/OF80NF【Grub Legacy: CentOS6及以下等旧版本】http://is.gd/c5Lvph
+   Grub Legacy（CentOS6及以下等旧版本）：[双系统重装windows后无法进入linux 系统解决方案](http://blog.sina.com.cn/s/blog_6c25b1e50101h7cq.html)
 
-- 【问题三】因为 Grub 未正确配置导致 「grub rescue」无法进入 Linux 系统：
+3. 因为 Grub 未正确配置导致 「grub rescue」无法进入 Linux 系统：
 
-http://www.linuxidc.com/Linux/2012-07/65249.htm
+   [Ubuntu 开机出现 grub rescue> 终端模式修复方法](http://www.linuxidc.com/Linux/2012-07/65249.htm)
 
-- 【问题四】用 Windows 引导 Linux 【多方案】，可以用来解决问题二：
+4. 用 Windows 引导 Linux 【多方案】，可以用来解决问题二：
 
-http://forum.ubuntu.org.cn/viewtopic.php?f=139&t=376981
+   [windows下添加ubuntu引导教程](http://forum.ubuntu.org.cn/viewtopic.php?f=139&t=376981)
 
-
-【大姨妈贴系列】
+### 大姨妈贴系列
 
 
 - 怎么编译 C 程序：
-http://is.gd/qy8xZt
 
-- Linux 怎么读：
-http://tieba.baidu.com/p/1757803469
+  ![C语言编译](Images/C语言编译.png)
 
-- 哪个发行版本用的人多：
-http://tieba.baidu.com/p/1935807760
+- [Linux 怎么读](http://tieba.baidu.com/p/1757803469)
 
-- 更多问题：
-http://tieba.baidu.com/p/2416364596
+- 哪个发行版本用的人多：详情可查看[DistroWatch](http://distrowatch.com/)
+
+- 更多问题：[请查看贴吧月经贴](http://tieba.baidu.com/p/2416364596)
 
 
- ## Linux 新手
+## Linux 新手
 
->先确定，你是不是适合使用 Linux。如果不适合，最好还是回到 Windows/OSX 的怀抱。
+>先确定，你是不是适合使用 Linux。如果不适合，最好还是回到 Windows/Mac的怀抱。
 
-■以下这几种情况：
+## 基础的几种情况
 
 
 1. 我是单纯因为 XP 停止支持来寻找一个在老式机器上运行良好的替代系统
-
 2. 我是单纯因为国家推广国产操作系统而对 Linux 产生兴趣想试一试
-
 3. 我仅仅是想搞 OI(信息学奥林匹克) 的初中/高中学生，要拿这系统学写程序
+4. 想搞ACM竞赛的大学生，需要一个编程的环境
+5. 听同学说Linux如何牛，怎么好使用
 
 
-第一种和第二种请直接移步 http://tieba.baidu.com/p/3065646448 这个帖子，对于第三种，**注意 Linux 并不是必须的，在 Windows 下一样写程序，评测环境指的是“裁判”的评测系统**，如果确实有兴趣，继续往下看。
+第一种和第二种请直接移步[Linux贴吧入吧须知](http://tieba.baidu.com/p/3065646448) 这个帖子，对于第三种以及第四种。**注意 Linux 并不是必须的，在 Windows 下一样写程序，评测环境指的是“裁判”的评测系统**。对于第五中情况，如果是自己喜欢的话，可以考虑在虚拟机中安装Linux，如果不是的话，我认为没有这个必要，在原来的系统上好好的进行使用就行。
 
-〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓〓
+## 几种计算机使用者
 
-使用电脑的无非就这么几种人：
+1. 真正的普通用户，以能用，能用电脑达到自己的目的为目标，根本不会管用的是什么系统。
 
+>
+> 我也见过不少喜欢用 PPS 看肥皂剧，即便哪天换成了风行也无所谓的大妈。
+>
+> 甚至也见过大字不识，一进网吧就让老板开 CS 的玩家。
+>
+> 啥叫普通用户？真正在“用”电脑的人，有关心过自己面对的是什么系统什么软件吗？
+>
+> 换个鲜活的例子来说，就是几年前手机刚兴起的时候，全国成千上万的人都在用，但有几个人知道自己的手机也有操作系统的？
+>
+> 有几个人能说出两部不同牌子的手机的软件有啥不一样的？
+>
 
-1.真正的普通用户，以能用，能用电脑达到自己的目的为目标，根本不会管用的是什么系统。
+2. 关心自己电脑，关注自己的软件，但只关心软件的效率，功能，用着顺手不顺手，但不关心定制配置自己的软件——大部分人都是这个情况
+3. 跟第二种相比，喜欢定制配置自己的软件。高度个人化，用自己的系统而不是“别人的”——比较少
+4. 开发人员——更少，不用解释了吧。
+5. 服务器搭建/维护人员——也不用解释了吧。
 
+如果你是第一和第二种人，还是直接回到你原来的系统吧。如果只做 Windows或其他非 linux 有关开发，或是只管Windows Server，又在桌面上的思想像第一和第二种人，还是直接回到你原来的系统吧。何为“好”？适合自己的才是最好的，详细的可以参考：[Linux不是Windows（注解版）](https://tieba.baidu.com/p/1677342775)
 
-<blockquote>
-我也见过不少喜欢用 PPS 看肥皂剧，即便哪天换成了风行也无所谓的大妈。
-
-甚至也见过大字不识，一进网吧就让老板开 CS 的玩家。
-
-啥叫普通用户？真正在“用”电脑的人，有关心过自己面对的是什么系统什么软件吗？
-
-换个鲜活的例子来说，就是几年前手机刚兴起的时候，全国成千上万的人都在用，但有几个人知道自己的手机也有操作系统的？
-
-有几个人能说出两部不同牌子的手机的软件有啥不一样的？
-</blockquote>
-
-2.关心自己电脑，关注自己的软件，但只关心软件的效率，功能，用着顺手不顺手，但不关心定制配置自己的软件。
-
-大部分人都是这个情况
-
-3.跟第二种相比，喜欢定制配置自己的软件。高度个人化，用自己的系统而不是“别人的”。
-
-比较少
-
-4.开发人员。
-
-更少，不用解释了吧。
-
-5.服务器搭建/维护人员。
-
-也不用解释了吧。
-
-如果你是第一和第二种人，还是直接回到你原来的系统吧。
-
-如果只做 win 或其他非 linux 有关开发，或是只管 win 服务器，又在桌面上的思想像第一和第二种人，还是直接回到你原来的系统吧。
-
-何为“好”？适合自己的才是最好的。
-
-详：tieba.baidu.com/p/1677342775
+## 乐高的场景
 
 在乐高（Lego）玩具发生的类似的情况正好阐述这种问题。试想下面的情景：
 
@@ -149,6 +115,8 @@ http://tieba.baidu.com/p/2416364596
 
 ## 发行版简介
 
+### 分级介绍
+
 下面简单介绍一些发行版（字母顺序排序）。
 
 没有最好的，适合自己的才是最好的。
@@ -163,13 +131,13 @@ II--进阶级，没有自带桌面，真正高度定制
 
 II+--比进阶级难
 
+### 概念解释
 
-概念解释：
 【滚动升级】简称【滚】，又称【滚动更新】【滚动发行】，本吧最常用的术语之一，是指没有固定的系统版本，每天都有更新，所有软件更新后会升级到尽量新的版本，不需要重新安装新版本的操作系统或进行指定的系统版本升级的这样一种更新方式，**但有一定风险**。
 
 与之相对的，大部分发行版采用冻结机制。比如说，在系统最新版本为 6 时，软件 A(1.0) 出了新版本 2.0，那么可以更新到 2.0 版本；当系统出了版本 7 后，系统版本 6 被冻结，提供的软件将不再更新，那么即使 A 又出了新版本 3.0，使用系统 6 的用户就无法更新到 3.0，想用 3.0 就必须更新整个系统到 7。当然，这不是绝对的。有时开发者会把新的软件向已冻结的旧版本系统移植，重要的安全更新也是持续推送。 
 
-
+### 发行版
 
 【注】以下发行版(小型携带系统除外)均有中文支持
 
@@ -179,50 +147,54 @@ II+--比进阶级难
 
 
 - (I)DeepinLinux：深度 Linux，国内发行版，方向是面向普通用户的，但是还没能达到目标。不过已经算入门很简单的了。
-http://linuxdeepin.com
+  http://linuxdeepin.com
 
 - (I)Fedora：相当于 RedHat 的不稳定分支，但不是滚动升级。
-http://fedoraproject.org
+  http://fedoraproject.org
 
 - (I)Mint：基于 Ubuntu 的发行版，同时有基于 Debian 的版本。特色为简洁。
-http://www.linuxmint.com
+  http://www.linuxmint.com
 
 - (I)OpenSUSE：曾经被评价为最华丽的Linux桌面发行版。目标是成为所有人都能够得到的最易于使用的 Linux 发行版。
-http://www.opensuse.org
+  http://www.opensuse.org
 
 - (I)StartOS(原YLMFOS)：国内发行版，类似 Deepin。
-http://startos.org
+  http://startos.org
 
 - (I)Ubuntu：最流行的桌面发行版，以易用著称。新版的 UNITY 桌面有些不稳定，可以选择 KDE 的 Kubuntu 或 Xfce/LXDE 的 Xubuntu/Lubuntu 衍生版。
-http://ubuntu.com
+  http://ubuntu.com
 
 - (I+)*Centos：服务器比较适用的发行版，RedHat(RHEL) 的社区版。
-http://centos.org
+  http://centos.org
 
 - (I+)*Debian：历史久远的发行版，以稳定著称，通用多架构操作系统，有三个分支：稳定分支 (stable)、测试分支 (testing)、不稳定分支 (unstable, 滚动升级)。
-https://www.debian.org
+  https://www.debian.org
 
 - (I+)PuppyLinux：体积小，使用方便的小型携带系统。
-http://www.puppylinux.com
+  http://www.puppylinux.com
 
 - (I+)TinyCore：类似 Puppy, 体积更小的小型携带系统，有三个版本，大小分别约为 10M, 15M, 75M
-http://www.tinycorelinux.net
+  http://www.tinycorelinux.net
 
 - (II)ArchLinux：滚动升级，高度定制，软件丰富，配置集中的发行版。
-http://archlinux.org
+  http://archlinux.org
 
 - (II+)Gentoo：安装软件大多数是编译安装，类似 FreeBSD。最稳定的滚动升级发行版。
-http://gentoo.org
+  http://gentoo.org
 
 - (II+)Slackware：力图成为“UNIX风格”的Linux发行版本。它的软件包管理系统它不会解决依赖关系。历史悠久。
-http://www.slackware.com
+  http://www.slackware.com
 
 
-下载（国内）：
+### 下载地址
 
-http://mirrors.ustc.edu.cn/
+[中科大的镜像站](https://mirrors.ustc.edu.cn/)
 
-http://mirrors.163.com/
+[清华大学的TUNA镜像站](https://mirrors.tuna.tsinghua.edu.cn/)
+
+[阿里源](https://mirrors.aliyun.com/)
+
+[网易开源镜像站](http://mirrors.163.com/)
 
 这里面没有的请到相应官方网站下载
 
@@ -384,15 +356,14 @@ lz:抱歉，打错了，是 ati……
 
 伸手党是指**可以**做一件事，却伸手叫别人帮他做。
 
-当你使用 Linux 时出现问题时，一般用**搜索引擎**都能找到答案。
+当你使用 Linux 时出现问题时，一般用**搜索引擎**都能找到答案，一些常用的搜索引擎如下
 
-http://google.com (http://sinaapp.co) (https://startpage.com)
+1. [Google](https://www.google.com)
+2. [baidu](https://www.baidu.com/)
+3. [Bing](http://cn.bing.com/)
+4. [duckduckgo](https://duckduckgo.com/)
 
-http://baidu.com
-
-https://duckduckgo.com
-
-<img src="http://hiphotos.baidu.com/%BE%C5%CA%AE%B9%B3%C8%A6%BF%AD_/pic/item/620e0a06b3de9c820308c7266c81800a18d84394.jpg" />
+![搜索](Images/搜索.jpg)
 
 WHAT IS "伸手党"?
 
@@ -404,23 +375,20 @@ WHAT IS "伸手党"?
 
 我只想说：
 
-<img src="http://xrom.weebly.com/uploads/1/2/7/3/12735361/344951_orig.png?0"></img>
+![涂鸦](Images/涂鸦.png)
 
 
 ## 杂项
 
 ### 推荐书籍
 
-【入门】《笨兔兔的故事》(实体书名：linux入门很简单)
-
-http://forum.ubuntu.org.cn/viewtopic.php?t=267518
+【入门】《[笨兔兔的故事](http://forum.ubuntu.org.cn/viewtopic.php?t=267518)》(实体书名：linux入门很简单)
 
 【入门】《鸟哥的 linux 私房菜》(服务器向)
 
 [正体] http://linux.vbird.org
 
 [简体] http://vbird.dic.ksu.edu.tw
-
 
 ### 关于QQ
 
@@ -437,6 +405,8 @@ linux 上游戏有不少，只是没有“主流游戏”（Tencent 系列）
 有的 windows 游戏可以虚拟机，有的可以用 WINE 启动，而且 steam 里的游戏多到玩不完。
 
 ### 推荐网站：
+
+https://linux.cn/
 
 http://chinaunix.net
 
